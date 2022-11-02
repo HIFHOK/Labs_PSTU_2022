@@ -14,7 +14,7 @@ int main()
 
     cin >> n;
 
-    if (((int)n < 3) or ((int)n % 2 != 1))
+    if (((int)n < 3) or ((int)n % 2 != 1));
     {
         goto start;
     }
