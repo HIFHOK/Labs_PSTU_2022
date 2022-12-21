@@ -1,20 +1,25 @@
+#include <iostream>
 #include <cmath>
 
 using namespace std;
 
-int n, k;
-
-cout << "Введите количество звёздочек в квадрате";
-
-cin >> n;
-
-k = sqrt(n);
-
-for (int i = 0; i < k; i++)
+int main()
 {
-    for (int j = 0; j < k; j++)
+
+    int n, k;
+
+    cout << "Введите количество звёздочек в квадрате";
+
+    cin >> n;
+
+    k = sqrt(n);
+
+    for (int i = 0; i < k; i++)
     {
-        cout << "* ";
+        for (int j = 0; j < k; j++)
+        {
+            cout << "* ";
+        }
+        cout << endl;
     }
-    cout << endl;
 }
