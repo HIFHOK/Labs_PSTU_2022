@@ -11,5 +11,5 @@ for (int i = 1; i <=n; i++)
 {
     *f *= i;
 }
-std::cout << "Factorial of " << n << " is " << fact << std::endl;
+std::cout << "Факториал " << n << " равен " << fact << std::endl;
 }
